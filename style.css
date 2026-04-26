@@ -59,18 +59,19 @@ nav ul a:hover{
     border-bottom: 2px solid yellow;
 }
 hgroup{
+    margin: auto;
     position: relative;
     z-index: 2;
     width: 50vw;
     text-align: center;
-    justify-self: center;
     -webkit-text-stroke: 1px black;
+    padding-top: 150px;
 }
 .header hgroup h1{
     font-size: 36px;
     font-weight: 900;
     text-transform: uppercase;
-    margin-top: 22vh;
+    margin-top: 45px;
     margin-bottom: -1vh;
 }
 .header_span_heading{
@@ -302,7 +303,11 @@ hgroup{
 /* My Experience Section  */
 .My_Experience_Section{
     color: white;
-    margin-top: 25vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .My_Experience_Section .My_Experience_Section_Work_P{
     color: yellow;
@@ -320,8 +325,8 @@ hgroup{
     border: 1px solid white;
     border-radius: 10px;
     padding: 1vw;
-    text-align: right;
-    margin-left: 15vw;
+    text-align: left;
+    margin-left: 33vw;
     margin-top: 5vh;
 }
 .My_Experience_Section_article_2{
@@ -330,7 +335,7 @@ hgroup{
     border: 1px solid white;
     border-radius: 10px;
     padding: 1vw;
-    margin-right: 15vw;
+    margin-right: 33vw;
     margin-top: 5vh;
     justify-self: flex-end;
 }
@@ -340,8 +345,8 @@ hgroup{
     border: 1px solid white;
     border-radius: 10px;
     padding: 1vw;
-    text-align: right;
-    margin-left: 15vw;
+    text-align: left;
+    margin-left: 33vw;
     margin-top: 5vh;
 }
 .My_Experience_Section_article_4{
@@ -350,7 +355,7 @@ hgroup{
     border: 1px solid white;
     border-radius: 10px;
     padding: 1vw;
-    margin-right: 15vw;
+    margin-right: 33vw;
     margin-top: 5vh;
     justify-self: flex-end;
 }
@@ -600,6 +605,7 @@ hgroup{
 .footer-p{
     width: 100%;
     height: 50px;
+    padding-top: 8px;
     background-color: rgba(0, 0, 0, 0.473);
     text-align: center;
     align-content: center;
