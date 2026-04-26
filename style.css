@@ -682,6 +682,7 @@ nav ul a{
 hgroup{
     width: 98%;
     -webkit-text-stroke: 1px transparent;
+    padding-top: 10px;
 }
 .header hgroup h1{
     font-size: 26px;
@@ -945,6 +946,7 @@ nav ul a{
 hgroup{
     width: 100%;
     -webkit-text-stroke: 1px transparent;
+    padding-top: 10px;
 }
 .header hgroup h1{
     font-size: 25px;
